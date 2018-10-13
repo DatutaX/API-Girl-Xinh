@@ -21,5 +21,4 @@ $row = mysqli_fetch_array($hp2k1_go, MYSQLI_NUM);
 echo '{ "messages": [ { "attachment": { "type": "image", "payload": { "url": "';
 echo $row[0];
 echo '" } } },{ "text": "<3", "quick_replies": [ { "title":"Xem tiếp!!!", "block_names":["HP2k1", "girl"] } ] } ] }';
-
 ?>
