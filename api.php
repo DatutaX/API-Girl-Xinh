@@ -1,8 +1,8 @@
 ﻿<?php
 $hp2k1_host = "localhost";
-$hp2k1_user = "@";
-$hp2k1_pass = "@";
-$hp2k1_dbname = "@";
+$hp2k1_user = "123";
+$hp2k1_pass = "123";
+$hp2k1_dbname = "123";
 
 $connection = mysql_connect($hp2k1_host,$hp2k1_user,$hp2k1_pass);
 if (!$connection)
